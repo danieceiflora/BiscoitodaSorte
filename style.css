@@ -22,7 +22,9 @@
   0% {
    
    
-   transform: translateY(150px);
+   transform: 
+   translateY(150px)
+   scale(0.1);
    
    
     
@@ -31,31 +33,21 @@
   100% {
     
     
-    transform: translate(0);
+    transform:
+    translate(0)
+    scale(1)
+
     
     
   }
 }
 
-@keyframes smallbig{
-  0%{
-    transform: scale(0.1);
-    }
 
-  100%{
-    transform: scale(1);
-  }
-}
 
 .hide{
   display: none;
 }
 
-#MsgSorte{
-  animation: smallbig 1500ms 500ms backwards;
-  cursor: pointer;
-    
-}
 
 
 #MsgSorte{
